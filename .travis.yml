@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ndWi9bd8dxc1rFcJ0HnH/qzMRBx6jKcd9AldR3LxsGkCM7WRVggSN7LjAR0+u3qHQ0BjIoZHjsBqUHx8WtibREusiFSYyJlx7hJdBpUhsA+lLVyKsK3KHl/5QoiUkG9O9GXzXbIqVnfa+7Xohjq28a472csXCW6CH+b6DTxAG6RkZuuaIWIOBvSasyoxnwvPu0euRaebs57jfKhZFZIMEHeVjCOlx8DEbqmDzzsSrWAG35H9/HU58uE4R/rW4ZHlJiBukHanFRwRRI9yO5wIi2YNgay3R5DZdV/hvpzfdFXVyDq8smkG/3kaBoJxlcd5Bn9sGBspsPmWMCeYfiBnyqWR/V9fROvM3G/OB/EQM3/64Y1/OZBganPoxRFv4VYfoAUxSFe4IPtc4uSqHJHbOd2zQ+NogeDTxEQ1/HNQe0SYhaDvMc+Q0AjdzkZT8qg7kCyrGvTrXbtUO3KNpMwGZorhTqpaIbCcaXTrWl3kKqa6OcSlaPMEFySBDmCCOiHibdUUuZzN0dhLGwmN3c8QrswxN+tuKTO/V3qu9rhEJgzfMwQb/6zOJASvn59JrZN3vXTmFV0YYqOPD53h3PcA+dDpcgtO0b8MT4Xr26Mzqadz2rzEFFo4LyfYs27Dedp0UrXauPNib62pmRJxE4TVfgk2y5x/aBuRr527zmchN9U=
+  app: infinite-river-24674
+  on:
+    repo: mbuzzas/node-shopping-list-integration-tests
